@@ -45,6 +45,7 @@ body {
 .container {
   border-radius: 2rem;
   padding: 2em 2em 2em 2em;
+  gap: 1.5em;
 }
 
 /* RIGHT CONTAINER */
@@ -161,10 +162,9 @@ body {
     var(--gradient-violet-blue),
     var(--gradient-persian-blue)
   );
-  border-radius: 6em;
-  width: 12em;
-  height: 12em;
-  margin: 1em 0;
+  border-radius: 5.5em;
+  width: 11em;
+  height: 11em;
 }
 .score-76 {
   font-size: 4rem;
@@ -175,13 +175,8 @@ body {
   color: var(--neutral-lavender);
 }
 
-.result-summary-container {
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
 .result-caption {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.3em;
 }
@@ -200,7 +195,7 @@ body {
 
 @media screen and (max-width: 650px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   body {
@@ -223,6 +218,12 @@ body {
     border-top-left-radius: 0;
     width: 100%;
     height: 45%;
+  }
+
+  .score-container {
+    border-radius: 4.5em;
+    width: 9em;
+    height: 9em;
   }
 
   .container-right {
