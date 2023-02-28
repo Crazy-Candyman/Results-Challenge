@@ -1,6 +1,6 @@
 # Screenshot
 
-![](/assets/images/results_challenge_screenshot.jpg)
+![](/images/results_challenge_screenshot.jpg)
 
 # Links
 
