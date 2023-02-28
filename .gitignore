@@ -15,11 +15,10 @@
 
 style-guide.md
 
-assets\fonts\
+assets/fonts/
+assets/fonts/static
 
-assets\fonts\static
-
-design\
+design/
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
