@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="wrapper">
+      <!-- LEFT CONTAINER -->
+
+      <section class="container container-left">
+        <h1 class="container-left-title">Your Result</h1>
+        <div class="score-container">
+          <p class="score score-76">76</p>
+          <p class="score score-100">of 100</p>
+        </div>
+        <div class="result-summary-container">
+          <p class="result-caption">Great</p>
+          <p class="result-summary">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+
+      <!-- RIGHT CONTAINER -->
+
+      <section class="container container-right">
+        <h1 class="container-right-title">Summary</h1>
+
+        <div class="summary-list-container">
+          <div class="box reaction-box">
+            <div class="summary-box-left">
+              <img src="/images/icon-reaction.svg" alt="Picture of lightning" />
+              <p class="box-text reaction">Reaction</p>
+            </div>
+            <div class="summary-box-right">
+              <p class="summary-box-score">
+                <span class="score-numerator"> 80 </span> / 100
+              </p>
+            </div>
+          </div>
+          <div class="box memory-box">
+            <div class="summary-box-left">
+              <img src="/images/icon-memory.svg" alt="Picture of brain" />
+              <p class="box-text memory">Memory</p>
+            </div>
+            <div class="summary-box-right">
+              <p class="summary-box-score">
+                <span class="score-numerator"> 92 </span> / 100
+              </p>
+            </div>
+          </div>
+          <div class="box verbal-box">
+            <div class="summary-box-left">
+              <img src="/images/icon-verbal.svg" alt="Picture of comment box" />
+              <p class="box-text verbal">Verbal</p>
+            </div>
+            <div class="summary-box-right">
+              <p class="summary-box-score">
+                <span class="score-numerator"> 61 </span> / 100
+              </p>
+            </div>
+          </div>
+          <div class="box visual-box">
+            <div class="summary-box-left">
+              <img src="/images/icon-visual.svg" alt="Picture of eye" />
+              <p class="box-text visual">Visual</p>
+            </div>
+            <div class="summary-box-right">
+              <p class="summary-box-score">
+                <span class="score-numerator"> 72 </span> / 100
+              </p>
+            </div>
+          </div>
+        </div>
+        <a type="button" href="#" class="btn-continue">Continue</a>
+      </section>
+    </main>
+
+    <!-- ATTRIBUTION -->
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        ><b>Frontend Mentor</b></a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/Crazy-Candyman"
+        ><b>Crazy-Candyman</b></a
+      >
+    </footer>
+  </body>
+</html>
