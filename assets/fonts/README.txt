@@ -16,7 +16,7 @@ in those cases you can use the static font files for Hanken Grotesk:
   static/HankenGrotesk-Bold.ttf
   static/HankenGrotesk-ExtraBold.ttf
 
-Get started   
+Get started      
 -----------
 
 1. Install the font files you want to use
