@@ -182,7 +182,7 @@ body {
 }
 
 .result-summary {
-  padding: 0em 1em 1em 1em;
+  padding: 0em 1em 0em 1em;
   color: var(--neutral-lavender);
 }
 
