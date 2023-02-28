@@ -39,7 +39,7 @@ body {
   background-color: white;
   border-radius: 2rem;
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
-  width: 650px;
+  width: 40.625em;
 }
 
 .container {
@@ -197,9 +197,13 @@ body {
 /* MEDIA QUERY CSS */
 
 @media screen and (max-width: 650px) {
+  html {
+    font-size: 10px;
+  }
+
   body {
-    /* height: 100svh; */
-    /* width: 100svw; */
+    height: 100vh;
+    width: 100vw;
   }
 
   .wrapper {
@@ -208,10 +212,8 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: none;
-    height: 100svh;
-    width: 100svw;
-    /* width: 100%; */
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
   }
 
   .container-left {
