@@ -206,11 +206,9 @@ body {
 
   body {
     min-height: 100svh;
-    /* display: flex; */
   }
 
   .wrapper {
-    /* display: flex; */
     flex-direction: column;
     box-shadow: none;
     width: 100%;
