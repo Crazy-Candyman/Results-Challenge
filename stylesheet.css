@@ -125,7 +125,8 @@ body {
   background-color: var(--neutral-gray-blue);
 }
 
-.btn-continue:hover {
+.btn-continue:hover,
+.btn-continue:active {
   background: linear-gradient(
     var(--gradient-slate-blue),
     var(--gradient-royal-blue)
@@ -177,15 +178,16 @@ body {
   color: var(--neutral-lavender);
 }
 
-.result-caption {
+.result-summary > h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.3em;
 }
 
-.result-summary {
+.result-summary > p {
   padding: 0em 1em 0em 1em;
   color: var(--neutral-lavender);
+  font-weight: 500;
 }
 
 .attribution > * {
