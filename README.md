@@ -1,11 +1,12 @@
-# Screenshot
+# Screenshot of Desktop and Mobile Versions
 
 ![](/images/results_challenge_screenshot.jpg)
+![](/images/mobile_screenshot.png)
 
 # Links
 
-- Solution URL: [Git Code / Solution](https://github.com/Crazy-Candyman/Results-Challenge.git)
-- Live Site URL: [Preview Site](https://crazy-candyman.github.io/Results-Challenge/)
+- Solution: [Git Code / Solution](https://github.com/Crazy-Candyman/Results-Challenge.git)
+- Live Site: [Preview Site](https://crazy-candyman.github.io/Results-Challenge/)
 
 # Built with
 
@@ -20,4 +21,4 @@
 
 # Attributions
 
-Challenged by Front End Mentor | Coded by Crazy_Candyman
+- Challenged by Front End Mentor | Coded by Crazy-Candyman
